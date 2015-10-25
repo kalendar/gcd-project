@@ -38,4 +38,6 @@ Here we make sure to sort the descriptive variables dataframe so it is in the sa
 Here we actually change the column names with the values in our descriptive variables dataframe.
 
 # 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
-In this step we loop through the list of subjects, subsetting the data on each subject. Within each subject's subset we subset again on activity type. Within each activity subset, we take the means of the values of each column. The subject, activity, and means are then used to create the final dataframe. 
+In this step we loop through the list of subjects, subsetting the data on each subject. Within each subject's subset we subset again on activity type. Within each activity subset, we take the means of the values of each column. The label, subject, activity, and means are then written one row at a time to create the final dataframe. 
+
+Finally, the newly tidy data is written out to a .txt file as per the homework instructions.
